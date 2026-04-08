@@ -1,0 +1,40 @@
+============================================
+|       CREDIT SCORE PROBLEM - COMMANDS    |
+============================================
+
+0) link github repository
+
+https://github.com/HoltechHard/task_credit_analysis
+
+1) create the python environment
+
+$ python -m venv credit_env
+
+2) activate the python environment
+
+$ .\cred_env\Scripts\activate
+
+3) install python packages
+
+$ pip install -r requirements.txt
+
+4) tree root path structure of project
+
+credit_score_project/
+├── dataset/
+│   ├── credit_train.csv          
+│   └── credit_test.csv           
+├── scripts/
+│   ├── __init__.py               
+│   ├── preprocessing.py          
+│   ├── classifiers.py            
+│   ├── evaluator.py              
+│   └── deploy.py                 
+├── models/                        
+├── outputs/                       
+├── notebook/
+│   └── credit_score_classification.ipynb   
+├── report/
+│   └── Credit_Score_Classiication_Report_v2.docx
+
+
